@@ -1,7 +1,4 @@
-class Pawn
-  def initialize(row, column, colour)
-    @row = row
-    @column = column
-    @colour = colour
-  end
+require_relative './piece'
+
+class Pawn < Piece
 end

@@ -1,7 +1,4 @@
-class Knight
-  def initialize(row, column, colour)
-    @row = row
-    @column = column
-    @colour = colour
-  end
+require_relative './piece'
+
+class Knight < Piece
 end
